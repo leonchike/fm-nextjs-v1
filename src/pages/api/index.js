@@ -4,13 +4,13 @@ import nc from "next-connect";
 const handler = nc()
   // express like routing for methods
   .get((req, res) => {
-    res.send("Hello world");
+    res.json({ data: "Hello world" });
   })
   .post((req, res) => {
-    res.json({ hello: "world" });
+    res.json({ data: "world" });
   })
   .put(async (req, res) => {
-    res.end("hello");
+    res.json({ data: "Hello world" });
   });
 
 export default handler;

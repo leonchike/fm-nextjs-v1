@@ -35,7 +35,7 @@ const Notes = ({ notes }) => {
 export default Notes;
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/note`);
+  const res = await fetch(`${process.env.API_ROUTE}/api/note`);
   const { data } = await res.json();
 
   console.log(data);

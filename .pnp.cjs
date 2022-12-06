@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.11"],\
             ["@types/react", "npm:18.0.26"],\
             ["body-parser", "npm:1.20.1"],\
+            ["dotenv", "npm:16.0.3"],\
             ["dotenv-load", "npm:2.0.1"],\
             ["next", "virtual:ea55af5ff56b608bc0eb7b5034baee0474feed69f2382b5333092a7e12d06167d39f9e8b8bcfc024ce05e93d60f8385713500f646d2260313aea898eae37b9ea#npm:9.5.5"],\
             ["next-connect", "npm:0.8.1"],\
@@ -5954,6 +5955,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.11"],\
             ["@types/react", "npm:18.0.26"],\
             ["body-parser", "npm:1.20.1"],\
+            ["dotenv", "npm:16.0.3"],\
             ["dotenv-load", "npm:2.0.1"],\
             ["next", "virtual:ea55af5ff56b608bc0eb7b5034baee0474feed69f2382b5333092a7e12d06167d39f9e8b8bcfc024ce05e93d60f8385713500f646d2260313aea898eae37b9ea#npm:9.5.5"],\
             ["next-connect", "npm:0.8.1"],\
