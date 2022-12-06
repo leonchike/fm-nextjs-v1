@@ -1,10 +1,6 @@
 import { useEffect } from "react";
 
 const SponsoredAd = () => {
-  useEffect(() => {
-    console.log(document.body);
-  }, []);
-
   return (
     <div>
       <h3>Sponsored Ad</h3>
